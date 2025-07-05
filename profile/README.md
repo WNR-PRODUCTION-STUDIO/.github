@@ -20,106 +20,116 @@ It acts as the **central command** and parent studio for projects involving:
 
 ---
 
-## 🧩 Organizational Structure
-```mermaid
+
+## 🧩 Our Vision
+```mermaid  
 graph TD
-    Start(["🎓 Current - BS Electrical Engineering (Computer Engg. Specialization)"])
-    
-     %% Core Branches
-    Start --> HW1["🔧 2025: Embedded Systems"]
-    Start --> AI1["🧠 2026: Explore AI for Hardware"]
-    Start --> WD1["🌐 2025: Build Portfolio"]
-    Start --> DS1["🎨 Design & Animation Freelance"]
+    A[🏢 WNR-PRODUCTION-STUDIO]
 
-    %% Hardware Path
-    HW1 --> HW2["🛠 Arduino & IoT Projects"]
-    HW2 --> HW3["🤖 Smart Automation Prototypes"]
+    %% Web Development
+    A --> B1[🌐 Web Development]
+    B1 --> B1a[⚛️ React and Next.js]
+    B1a --> B1b[🎨 Tailwind and UI Design]
+    B1b --> B1c[🔗 REST APIs and Firebase]
+    B1c --> B1d[🧱 CMS and Static Site Tools]
 
-    %% AI Path
-    AI1 --> AI2["📚 Learn ML for Microcontrollers"]
-    AI2 --> AI3["🔬 Build AI-Driven Devices"]
+    %% App Development
+    A --> B2[📱 App Development]
+    B2 --> B2a[⚙️ Flutter and React Native]
+    B2a --> B2b[📦 Local Storage and Firebase Auth]
+    B2b --> B2c[🧪 App Testing and Deployment]
 
-    %% Web Dev Path
-    WD1 --> WD2["💻 Launch GitHub & Web Portfolio"]
-    WD2 --> WD3["📢 Share Projects on LinkedIn & Dev.to"]
+    %% AI & Data Science
+    A --> B3[🧠 AI and Data Science]
+    B3 --> B3a[📊 Machine Learning and Deep Learning]
+    B3a --> B3b[🔍 NLP and LLMs]
+    B3b --> B3c[📦 RAG and Vector Databases]
+    B3c --> B3d[🧠 TinyML and Edge AI]
 
-    %% Design Path
-    DS1 --> DS2["📸 Freelance via Blender, Canva, Figma"]
-    DS2 --> DS3["🏷 Build WNR as Tech+Design Studio"]
+    %% Embedded & IoT
+    A --> B4[🔌 Embedded Systems and IoT]
+    B4 --> B4a[🛠 Arduino - ESP32 - Raspberry Pi]
+    B4a --> B4b[📡 IoT Automation]
+    B4b --> B4c[🤖 Robotics and Sensors]
 
-    %% Convergence
-    HW3 --> GRAD["🎓 2028: Graduate from FAST-NUCES"]
-    AI3 --> GRAD
-    WD3 --> GRAD
-    DS3 --> GRAD
+    %% Blockchain
+    A --> B5[🧱 Blockchain and Web3]
+    B5 --> B5a[🪙 Smart Contracts in Solidity]
+    B5a --> B5b[🔐 Wallets and dApps]
+    B5b --> B5c[🗳️ DAO and Voting Systems]
 
-    %% Post-Grad Goal
-    GRAD --> FUTURE["🚀 Join R&D Role or Launch Product Startup"]
-```
+    %% Game Development
+    A --> B6[🎮 XOST GAME STUDIO]
+    B6 --> B6a[💻 C++ Game Engine with SFML]
+    B6a --> B6b[🕹️ Unity - Unreal - Godot]
+    B6b --> B6c[🧠 Game AI and Procedural Worlds]
+    B6c --> B6d[🌌 AR - VR - Metaverse Games]
 
+    %% Creative Studio
+    A --> B7[🎨 Creative Studio]
+    B7 --> B7a[🎞️ Blender - Figma - UI Design]
+    B7a --> B7b[📽️ Motion Graphics and Branding]
 
-🔗 XOST-GAME-STUDIO — a sub-organization dedicated entirely to game development, currently prototyping in C++ & SFML with future transitions planned to Unity, Godot, and Unreal Engine.
+    %% R&D
+    A --> B8[🚀 Research and Innovation]
+    B8 --> B8a[🧪 Tech Prototypes]
+    B8a --> B8b[📈 Open Source Tools]
+    B8b --> B8c[🌍 Social Impact Projects]
 
-
-# 🧠 Founder
-
-👤 Engr. Muhammad Waleed
-
-Electrical & Computer Engineering | Hardware Programmer | Game Dev Enthusiast | Founder of WNR Studio
-Passionate about bridging software with hardware and creating innovative, purposeful tech.
-
-
-# 🗂️ Featured Projects (and upcoming)
-
-| Project                              | Status          | Description                                              |
-| ------------------------------------ | --------------- | -------------------------------------------------------- |
-| 🎮 **2D Platformer Engine (SFML)**   | 🧪 Experimental | Lightweight C++ game engine using SFML for XOST Studio   |
-| 💡 **Smart LED Cube (Arduino)**      | ✅ Complete     | A C++ multiplexed 4x4x4 LED cube with animation controls |
-| 🚗 **Car Showroom Management (C++)** | ✅ Complete     | Inventory + Customer DB CLI app built using OOP in C++   |
-| 📊 **IoT Weather Dashboard**         | 🔜 Planned      | Real-time ESP32 + Web Dashboard integration              |
-| 🧠 **AI + Embedded (TinyML)**        | 🔜 Research     | On-device AI integration into embedded hardware          |
-| 🌐 **Portfolio Website Template**    | 🧪 Alpha        | Responsive developer portfolio with project highlights   |
-
-
-
-```mermaid
-graph LR
-    A[🎯 Establish Full-Stack Development Units]
-    A --> B[🌍 Public Launch of Projects]
-    B --> C[🤝 Open Source Collaboration]
-    C --> D[🎮 Release Playable Game Titles]
-    C --> E[📈 Launch AI & Data Science Models]
-    C --> F[🔌 Embedded Prototypes for Smart Devices]
-    F --> G[🚀 Build a Multi-Domain Innovation Lab]
 ```
 
 
 
-# 🧭 Mission Statement
+> 🎮 **Game Dev Division**: [XOST-GAME-STUDIO](https://github.com/XOST-GAME-STUDIO)  
+> 👤 **Founder**: [Engr. Muhammad Waleed](https://github.com/W-N-R)
 
-"To serve as a launchpad for creative developers, researchers, and engineers
-united under a single vision — building meaningful tech for the real world."
+---
 
-# 🧑‍💻 Join or Collaborate
+## 🗂️ Projects (Samples)
+
+| Project                                  | Status       | Description                                                    |
+|------------------------------------------|--------------|----------------------------------------------------------------|
+| 🔲 [LED Cube 4x4x4](https://github.com/W-N-R/My-Electronics-Embedded-Systems-Project-Hub-/tree/main/4%20X%204%20X%204_MATRIX_Ardiuno%20nano%20project)             | ✅ Complete   | Arduino-based 3D cube with multiplexed animations in C++       |
+| 🚗 [Car Showroom System](https://github.com/W-N-R/-Car-Showroom-Sales-System-C-)   | ✅ Complete   | Inventory & customer management using OOP in C++               |
+| 🎮 [2D Game Engine (SFML)](https://github.com/XOST-GAME-STUDIO)         | 🧪 In Progress | Lightweight C++ engine for platformers and arcade-style games  |
+| 🌐 Portfolio Website Template             | 🧪 In Progress | Personal dev portfolio using HTML/CSS, deployed via GitHub Pages |
+| 📊 IoT Weather Dashboard                  | 🔜 Upcoming   | Live temperature/humidity data from ESP32 to Web UI            |
+| 🤖 TinyML on Microcontrollers             | 🔬 Research   | Running ML models on Arduino Nano / ESP32                      |
+| 📱 AI Chatbot Web App                     | 🔜 Upcoming   | React + Flask chatbot using OpenAI API or local models         |
+| 🧠 Hand Gesture Recognition using CV      | 🔜 Upcoming   | ML + OpenCV app for gesture-based control                      |
+| 🪙 Decentralized Voting App (Solidity)    | 🧪 Prototype  | Ethereum smart contract for transparent voting                 |
+| 📦 Firebase-Powered To-Do + Auth System   | ✅ Complete   | Full-stack project with Google Login and real-time updates     |
+| 🎙 Text-to-Speech Bot (Python + Pyttsx3)  | ✅ Complete   | Voice assistant using offline libraries                        |
+| 🎛 Smart Home Controller (ESP32 + Web UI) | 🔜 Research   | Control lights, fans, and sensors via web dashboard            |
+
+---
+
+## 🧭 Mission Statement
+
+> _To be a launchpad for creative developers, researchers, and engineers — united under a single vision to build meaningful tech for the real world._
+
+---
+
+## 🧑‍💻 Join or Collaborate
+
 We welcome:
+- 💻 Developers (C++, Python, JS, Web, ML)
+- 🎮 Game designers and testers
+- 📊 Data scientists and analysts
+- 🧑‍🎨 Designers, animators, and content creators
 
-Contributors (C++, Python, JS, ML, UI/UX)
+**Open a pull request, fork a repo, or start a discussion** — we’re open to passionate contributors!
 
-Game testers and feedback givers
+---
 
-Designers and animators
+## 🔗 Connect with Us
 
-Data scientists and AI enthusiasts
+- 📦 **Main Org:** [WNR-PRODUCTION-STUDIO](https://github.com/WNR-PRODUCTION-STUDIO)  
+- 🎮 **Game Studio:** [XOST-GAME-STUDIO](https://github.com/XOST-GAME-STUDIO)  
+- 👤 **Founder:** [Engr. Muhammad Waleed](https://github.com/W-N-R)
 
-💬 Interested? Open a pull request, fork a repo, or contact us through GitHub Discussions!
+---
 
-# 🏁 Stay Connected
-🔗 Organization: WNR-PRODUCTION-STUDIO
-
-🧠 Founder: W-N-R
-
-🎮 Game Dev Arm: XOST-GAME-STUDIO
-
-🌐 Web: [Coming Soon]
-
-© 2025–Future | All rights reserved by WNR-PRODUCTION-STUDIO & XOST-GAME-STUDIO
+<div align="center">
+ © 2025–Future | All rights reserved by WNR-PRODUCTION-STUDIO
+</div>
